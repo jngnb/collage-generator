@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+</html>
+
+<body>
+    <h4>Playlist Cover Generator</h4>
+    <form>
+        <input type="hidden" id="hidden-token" value="">
+
+        <label class="label-text" for="playlist-id">Playlist ID:</label>
+        <input type="text" id="playlist-id" placeholder="Your Playlist ID..."><br><br>
+
+        <label class="label-text">Number of Album Covers To Be Included:</label>
+        <select id="num-imgs">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select><br>
+
+        <input type="submit" id="submit-btn" value="SUBMIT"><br><br>
+
+    </form>
+    <br>
+    <canvas hidden display="none" width="300" height="300" id="canvas"></canvas>
+    <img id="completed-img">
+    <br>
+    <a href="" id="download" download="my-playlist-cover">
+        <i class="fa fa-save"></i>
+    </a>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="collage.js"></script>
+</body>

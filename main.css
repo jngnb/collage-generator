@@ -1,0 +1,66 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: auto;
+    width: 300px;
+    padding-top: 30px;
+
+}
+h4 {
+    font-size: large;
+    font-weight: bolder;
+}
+.label-text {
+    display: block;
+    font-size: medium;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: rgb(78, 132, 78);
+    color: white;
+    padding: 6px 15px;
+    margin: 8px 0;
+    float: right;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: none
+}
+.select-items, .select-selected {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover {
+    background-color: rgb(57, 97, 57);
+}
+.fa-save {
+    
+    display: none;
+    font-size: 20px;
+    color:rgb(170,170,170);
+}
+.fa-save:hover {
+    color:rgb(130, 130, 130);
+}
+.completed-img {
+    display: none;
+    width: 300px;
+    height: 300px;
+}
