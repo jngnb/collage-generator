@@ -63,7 +63,7 @@ function appendImage (key) {
     img.onload = function() {
 
         //scaling algorithm
-        //scale from 0.8 ~ 2
+        //scale from 0.8 ~ 1.8
         let scaleFactor = Math.random() * 1 + 0.8;
         let currDx = Math.random() * canvasSide - (0.25*canvasSide);
         let currDy = Math.random() * canvasSide - (0.25*canvasSide);
@@ -75,7 +75,7 @@ function appendImage (key) {
 
         for (let i = 0; i <= 20 - appendedImgs.length; ++i){
 
-            // if 10-numImages centers were tried with the same scale factor
+            // if 20 - numImages centers were tried with the same scale factor
             // and none passed, reduce image size by 25%
             if (i == (20 - numImages)){
                 scaleFactor *= 0.75;
@@ -84,8 +84,8 @@ function appendImage (key) {
 
             /* if randomly computed leftmost/rightmost points and 
                                     bottommost/topmost points are 
-            overlapping more than 25% of appended image's right/left edge
-            OR overlapping more than 25% of appended image's top/bottom edge,
+            overlapping more than 50% of appended image's right/left edge
+            OR overlapping more than 50% of appended image's top/bottom edge,
             try another center */
             let j = 0;
             for (; j < appendedImgs.length; ++j) {
