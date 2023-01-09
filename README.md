@@ -7,7 +7,7 @@ Takes a Spotify playlist ID as input, compiles album covers of all the tracks in
 
 Check this out:
 
-<img src="https://i.imgur.com/qUdhDYb.png" width=45% height=45%> <img src="https://i.imgur.com/N6q0Bt8.png" width=45% height=45%>
+<img src="https://i.imgur.com/qUdhDYb.png" width=45% height=45%> <img src="https://i.imgur.com/N6q0Bt8.png" width=44% height=44%>
 
 ### Intent
 The Spotify app automatically creates a 4-frame playlist cover from the first 4 tracks of a playlist. 
