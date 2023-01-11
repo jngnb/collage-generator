@@ -21,15 +21,6 @@ Check this out:
 The Spotify app automatically creates a 4-frame playlist cover from the first 4 tracks of a playlist. 
 I wanted to write a program that creates a playlist cover that gives a better sense of the playlist content _and_ looks good
 
-## Technologies Used
-#### APIs
-[Spotify API](https://developer.spotify.com/)
-
-[removeBG API](https://www.remove.bg/tools-api)
-
-#### Languages
-JavaScript, HTML, CSS
-
 ## Algorithm
 #### 1. Initial Scaling
 - Divide canvas surface area with user inputted number of album covers `numImages` to include in the final output to find average surface area available per edited album cover
@@ -37,7 +28,7 @@ JavaScript, HTML, CSS
 #### 2. Finding starting point
 - Randomly compute x and y offset, offsetting the range by 25% of canvas to prevent images completely cutting off 
     - Bigger images continue often cut off too much so added function `preventEdgeCutOff()` that recomputes x and y offsets until at least 50% of width and height are included on canvas
-- <img src="https://i.imgur.com/DBtQQaT.jpg" width=40% height=40%>
+     <img src="https://i.imgur.com/DBtQQaT.jpg" width=40% height=40%>
 - Compute 4 edge positions of each image with `computeSizes()` with computed offsets and scale factor
 #### 3. Checking for overlap
 - Given the 4 endpoints computed, 
@@ -53,3 +44,11 @@ JavaScript, HTML, CSS
 - If any offset succeeds, append the image to canvas and add edge information to `appendedImgs`
 - If no offset succeeds, downsize image by 75% and repeat process until checks succeed
 
+## Technologies Used
+#### APIs
+[Spotify API](https://developer.spotify.com/)
+
+[removeBG API](https://www.remove.bg/tools-api)
+
+#### Languages
+JavaScript, HTML, CSS
