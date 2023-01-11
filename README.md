@@ -47,8 +47,8 @@ I wanted to write a program that creates a playlist cover that gives a better se
 ## Testing Results/Sample Collages
 **9 album covers included**
 **Same set of album covers used**
-<img src="https://i.imgur.com/3niYmj6.jpg" width=45% height=45%> <img src="https://i.imgur.com/uSonQkw.jpg" width=45% height=45%>
-<img src="https://i.imgur.com/s7tEoC6.jpg" width=45% height=45%> <img src="https://i.imgur.com/dpb2clH.jpg" width=45% height=45%>
+<img src="https://i.imgur.com/3niYmj6.jpg" width=45% height=45%>  <img src="https://i.imgur.com/uSonQkw.jpg" width=45% height=45%>
+<img src="https://i.imgur.com/s7tEoC6.jpg" width=45% height=45%>  <img src="https://i.imgur.com/dpb2clH.jpg" width=45% height=45%>
 
 ## Technologies Used
 #### APIs
