@@ -23,6 +23,8 @@ I wanted to write a program that creates a playlist cover that gives a better se
 JavaScript, HTML, CSS
 
 ## Algorithm
-1. Finding starting point
-2. Checking for overlap
-3. Appending/Resizing 
+#### 1. Initial Scaling
+- 
+#### 2. Finding starting point
+#### 3. Checking for overlap
+#### 4. Appending/Resizing 
